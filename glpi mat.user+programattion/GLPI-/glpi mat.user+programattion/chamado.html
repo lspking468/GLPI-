@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLPI || Chamado </title>
+    <link rel="stylesheet" href="./css/chamado.css">
+    <link rel="icon" href="./imgs/glpi.ico">
+</head>
+<body>
+    <main>
+        <header>
+            <img src="./imgs/glpi.ico" alt="GLPI" width="80px" height="80px">
+        </header>
+        <section>
+            <form action="" method="post">
+                <div class="containerH1">
+                    <h1>Problemas com computador 🖥️</h1>
+                </div>
+
+                <div class="containerH1">
+                    <h1>Detalhes</h1>
+                </div>
+
+                <div class="inputsSelectBox">
+                    <label for="selectComputer">Qual é o computador?</label>
+                    <p>Selecione o computador:</p>
+                    <p>(verifique a etiqueta colada no equipamento)</p>
+
+                    <select name="selectComputer" id="selectComputer">
+                        <option value="Dell">
+                            Dell G7
+                        </option>
+                        <option value="">
+                            PC-0045 - 96849
+                        </option>
+                    </select>
+                </div>
+                    
+                <div class="inputsSelectBox">
+                    <label for="Local">Local</label>
+                    <select name="Local" id="Local">
+                        <option value="">Bloco A</option>
+                    </select>
+            
+                </div>
+
+                <div class="inputsSelectBox">
+                    <label for="descriptionProblem">
+                        Descrição rápida do problema:
+                    </label>
+
+                    <input type="text">
+                </div>
+
+                <div class="inputsSelectBox">
+                    <label for="complementery">
+                        Detalhes Complementares:
+                    </label>
+
+                    <div class="inputGrid">
+                        <input type="file">
+                        <input type="text">
+                    </div>
+                </div>
+            </form>
+        </section>
+            
+        <footer>
+            <p>Desenvolvido por: Nome1 - <a href="#">Repositório</a></p>
+          </footer>
+    </main>
+</body>
+</html>
